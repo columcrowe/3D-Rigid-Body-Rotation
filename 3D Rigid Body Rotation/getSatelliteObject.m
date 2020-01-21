@@ -1,6 +1,7 @@
 function [M] = getSatelliteObject(height,length,width,timestep,tf,Moment_of_Inertia,Angular_Velocity)
 %Get frames to make a movie in order to visualise rotation of tumbling
 %satellite under zero external torque but with changing angular velocity.
+%Version:MATLAB2016a $Date:27/04/2016 $Colum Crowe $Revision:1
 
 %defining variables
 h=height; %x-axis
